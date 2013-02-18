@@ -149,3 +149,10 @@ presentation <- function(presentation = "presentation", rnw = TRUE,
     class(o) <- "reports"
     return(o)    
 }
+
+themes <- c("AnnArbor", "Antibes", "Bergen", "Berkeley", "Berlin", "Boadilla", 
+    "boxes", "CambridgeUS", "Copenhagen", "Darmstadt", "default", 
+    "Dresden", "Frankfurt", "Goettingen", "Hannover", "Ilmenau", 
+    "JuanLesPins", "Luebeck", "Madrid", "Malmoe", "Marburg", "Montpellier", 
+    "PaloAlto", "Pittsburgh", "Rochester", "Singapore", "Szeged", 
+    "Warsaw")

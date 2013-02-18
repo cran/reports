@@ -1,4 +1,4 @@
-643e5a17be1ebcd43ea543aa21f61a82 *DESCRIPTION
+6fddd2077b22254f65b4ef0e95ccf8c8 *DESCRIPTION
 54d51d057fa2094aa6bda9d43123accc *NAMESPACE
 0c8b392f45977655586cb71e00ab1dd3 *NEWS
 10749a86354893421dd862613427463a *R/CA.R
@@ -18,7 +18,7 @@ efe5e8e1d9a3f7de31540fdd422a9f6c *R/mgsub.R
 1d75bc763aae5bd6f9403add3abb89bd *R/new_report.R
 95dec500cdce07f19a0eb458f905a8fb *R/pad.R
 6f92f7b25220acc085c1a5f863c048ec *R/paste2.R
-d0412a338186fdf0c6552c4c0abb1de6 *R/presentation.R
+02e8fcc3acf6a6856c8a5cb9c2063888 *R/presentation.R
 7328d4ef37b96388e6441a2bfcf6da4e *R/reducer.R
 ed58ce8151ea9b0e28ed9454b6f63f4b *R/repo2github.R
 9a56845a2903ae693311803b0bed1b89 *R/reports-package.R
@@ -31,9 +31,9 @@ b7f6298f5adb34cc59c2404965407f6f *R/tex2docx.R
 f275fb18d72c9d5119d13e97508887da *R/update_bib.R
 1e40426d3ca02dbd8cc47e3779744beb *R/wc.R
 0cbf209dad0f0e5ca1c3713573a7d0e0 *R/wheresPandoc.R
-9a9f158f02d743c35169a0ac949da80a *README.md
-5129b6398358bc177dd72cb4c56a7b28 *data/themes.rda
-01d28cbc9fc8b8e6ab8c21618f78baeb *inst/CITATION
+5804470d94e153871c9ec23d01ab6218 *README.md
+c5cc49e197663e55dbfda49c1cf52bc2 *data/themes.rda
+4ab4eefe8a2d5a61d367baec75906d05 *inst/CITATION
 edfd110cb0e37a25286aba5198a3a469 *inst/extdata/doc_library/apa6.mod.qual_tex/DESCRIPTION
 d79537f01486aa0ac941ee0a088f54c0 *inst/extdata/doc_library/apa6.mod.qual_tex/doc.tex
 6ef5ed875a3a199abcc9f412e241fa85 *inst/extdata/doc_library/apa6.mod.qual_tex/preamble.tex

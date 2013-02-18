@@ -1,12 +1,12 @@
 Package: reports
 Type: Package
-Title: An R package to assist in the workflow of writing academic
-        articles and other reports
-Version: 0.1.2
+Title: Assist the Workflow of Writing Academic Articles and Other
+        Reports
+Version: 0.1.4
 Date: 2013-02-18
 Author: Tyler Rinker
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
-Description: reports is a package that assists in writing reports and
+Description: Assists in writing reports and
         presentations by providing a frame work that brings together
         existing R, LaTeX/.docx and Pandoc tools. The package is
         designed to be used with RStudio, MiKTex/Tex Live/LibreOffice,
@@ -20,8 +20,7 @@ URL: http://trinker.github.com/reports/
 BugReports: http://github.com/trinker/reports/issues
 LazyData: TRUE
 Depends: R (>= 2.15)
-Imports: knitr, knitcitations
-Suggests: pander, qdap, installr, ProjectTemplate
+Suggests: pander, knitr, knitcitations, ProjectTemplate
 Collate: 'CA.R' 'clean.R' 'CW.R' 'delete.R' 'doc_temp.R' 'GQ.R' 'LL.R'
         'mgsub.R' 'new_report.R' 'pad.R' 'paste2.R' 'presentation.R'
         'reducer.R' 'reports-package.R' 'scrubber.R' 'strWrap.R'
@@ -29,7 +28,7 @@ Collate: 'CA.R' 'clean.R' 'CW.R' 'delete.R' 'doc_temp.R' 'GQ.R' 'LL.R'
         'update_bib.R' 'wc.R' 'wheresPandoc.R' 'install_pandoc.R'
         'repo2github.R' 'US.R' 'reveal.js.R' 'genX.R' 'genXtract.R'
         'html5.R'
-Packaged: 2013-03-12 10:53:10 UTC; trinker
+Packaged: 2014-12-20 21:40:31 UTC; trinker
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2013-03-12 12:05:39
+Date/Publication: 2014-12-21 06:54:55
