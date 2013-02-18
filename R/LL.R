@@ -10,6 +10,8 @@
 #' clipboard.
 #' @details This function formats text for use with LaTeX as a list.  
 #' @return Returns a character vector with a LaTeX list formatted text.
+#' @section Warning: Ligatures are assumed to be "fi", however, these elements 
+#' may be "ff", "fi", "fl", "ffi" or "ffl".
 #' @export
 #' @examples
 #' \dontrun{
@@ -39,6 +41,13 @@ LL <- latexlist <- function(enumerate=TRUE, text = "clipboard",
                 \b\b\b\b\b\b\b\bmay not be able to read from the clipboard")
         }
     } 
+    text <- gsub("([\\?])([a-z])", "\\fi\\2", text)
+    ligs <- gregexpr("([\\?])([a-z])", text)[[1]]
+    nligs <- length(ligs)
+    if (ligs[1] > 0) {
+        plural <- ifelse(nligs > 1, "ligatures were", "ligature was")
+        warning(paste(ligs, plural, "found: \nCheck output!"))
+    }
     if (enumerate) {
         x <- "enumerate"
     } else {

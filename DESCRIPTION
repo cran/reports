@@ -2,15 +2,15 @@ Package: reports
 Type: Package
 Title: An R package to assist in the workflow of writing academic
         articles and other reports
-Version: 0.1.1
+Version: 0.1.2
 Date: 2013-02-18
 Author: Tyler Rinker
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: reports is a package that assists in writing reports and
         presentations by providing a frame work that brings together
-        existing R, LaTeX/.docx and pandoc tools. The package is
-        designed to be used with RStudio, MikTex/Tex Live/.docx, knitr,
-        knitcitations, Pandoc and pander.  The user will want to
+        existing R, LaTeX/.docx and Pandoc tools. The package is
+        designed to be used with RStudio, MiKTex/Tex Live/LibreOffice,
+        knitr, knitcitations, Pandoc and pander. The user will want to
         download these free programs/packages to maximize the
         effectiveness of the reports package.  Functions with two
         letter names are general text formatting functions for copying
@@ -29,7 +29,7 @@ Collate: 'CA.R' 'clean.R' 'CW.R' 'delete.R' 'doc_temp.R' 'GQ.R' 'LL.R'
         'update_bib.R' 'wc.R' 'wheresPandoc.R' 'install_pandoc.R'
         'repo2github.R' 'US.R' 'reveal.js.R' 'genX.R' 'genXtract.R'
         'html5.R'
-Packaged: 2013-03-11 12:14:15 UTC; trinker
+Packaged: 2013-03-12 10:53:10 UTC; trinker
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2013-03-11 13:53:38
+Date/Publication: 2013-03-12 12:05:39
